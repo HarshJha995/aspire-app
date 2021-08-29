@@ -1,5 +1,7 @@
 # aspire-app
 
+## Aspire App - Register and Apply for Loan. Individual account management done through local storage. Static page found on /static route
+
 ## Project setup
 ```
 npm install
