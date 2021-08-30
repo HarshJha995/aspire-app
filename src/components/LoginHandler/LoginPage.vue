@@ -28,6 +28,9 @@
         >{{ state.errorText }}
       </span>
     </div>
+    <div class="static">
+      <router-link to="/static">Please visit the static page here.</router-link>
+    </div>
   </div>
 </template>
 <script>
@@ -118,5 +121,9 @@ export default {
 }
 .tab-layout__body label {
   align-self: flex-start;
+}
+.static {
+  text-align: center;
+  margin-top: 20px;
 }
 </style>
